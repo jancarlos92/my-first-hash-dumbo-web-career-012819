@@ -11,8 +11,8 @@ def shipping_manifest
 end
 
 def retrieval(hash["item"])
-  
-  shipping_manifest["item"]
+  item = "item"
+  shipping_manifest[item]
  
  end
 
