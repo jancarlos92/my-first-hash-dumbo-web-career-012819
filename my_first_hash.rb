@@ -10,8 +10,11 @@ def shipping_manifest
 
 end
 
-def retrieval(hash[item])
-  
+def retrieval(item)
+  shipping_manifest = {"whale bone corsets" => 5, "porcelain vases" => 2, "oil paintings" => 3} 
+  item = "item"
+  shipping_manifest["item"]
+ 
  end
 
 
