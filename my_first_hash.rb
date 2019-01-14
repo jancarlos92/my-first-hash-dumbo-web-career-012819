@@ -10,7 +10,8 @@ def shipping_manifest
 
 end
 
-def retrieval("num")
+def retrieval(num)
+    num = "num"
     
     shipping_manifest = {"whale bone corsets" => 5, 
     "porcelain vases" => 2, 
