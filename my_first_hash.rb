@@ -10,8 +10,9 @@ def shipping_manifest
 
 end
 
-def retrieval[num]
+def retrieval(hash[item])
   
+  shipping_manifest[item]
  
  end
 
